@@ -13,7 +13,12 @@ h1, h2, h3, h4, h5 {
 
 a {
     text-decoration: none;
+    color: #f5af36;
 }
+
+    a:visited {
+        color: 663300;
+    }
 
 header {
     background-color: #000;
@@ -26,9 +31,19 @@ img.me {
     height: auto;
 }
 
-li img {
-    vertical-align: middle;
-    padding: 5px;
-    width: auto;
-    height: 2em;
+.skills {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+    list-style-image: none;
 }
+
+    .skills li img {
+        vertical-align: middle;
+        padding: 5px;
+        width: auto;
+        height: 1em;
+    }
