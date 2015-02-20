@@ -11,12 +11,16 @@ h1, h2, h3, h4, h5 {
     line-height: 1.4;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     background-color: #000;
 }
 
 img.me {
-    float:right;
+    float: right;
     padding-left: 30px;
     width: 100%;
     height: auto;
