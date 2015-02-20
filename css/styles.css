@@ -5,6 +5,7 @@
     line-height: 1.8;
     color: #555;
     padding: 0 10px;
+    font-family: sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -17,7 +18,7 @@ a {
 }
 
     a:visited {
-        color: 663300;
+        color: #663300;
     }
 
 header {
